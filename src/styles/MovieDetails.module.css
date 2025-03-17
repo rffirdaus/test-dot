@@ -1,0 +1,16 @@
+.detailsContainer {
+  padding: 2rem;
+  text-align: center;
+}
+
+.detailsImage {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.detailsText {
+  max-width: 600px;
+  margin: 1rem auto;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
