@@ -39,8 +39,8 @@ TMDB-App/
 ## ⚙️ **Instalasi & Menjalankan Aplikasi**
 1. **Clone repository**
    ```sh
-   git clone https://github.com/username/tmdb-app.git
-   cd tmdb-app
+   git clone https://github.com/rffirdaus/test-dot.git
+   cd test-dot
    ```
 2. **Instal dependensi**
    ```sh
@@ -54,6 +54,10 @@ TMDB-App/
    ```sh
    npm start
    ```
+
+## Account Login
+ - username : admin
+ - password : password
 
 ## 🛠️ **Teknologi yang Digunakan**
 - React.js
