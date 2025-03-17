@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+# TMDB App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TMDB App adalah aplikasi berbasis React.js yang menampilkan daftar film menggunakan API dari The Movie Database (TMDB). Aplikasi ini mencakup fitur pencarian film, detail film, autentikasi pengguna, dan navigasi antar halaman.
 
-## Available Scripts
+## 📌 **Fitur Utama**
+- 🔍 **Fetch Data dari API TMDB** menggunakan Axios
+- 🖼️ **Menampilkan daftar film populer**
+- 🎬 **Detail film lengkap** termasuk deskripsi dan rating
+- 🔄 **Conditional Rendering** untuk autentikasi pengguna
+- 📦 **Reusable Components** untuk tampilan film
+- ⚡ **State Management dengan React Hooks**
+- 🚀 **Routing dengan React Router** (termasuk proteksi rute)
+- 🎨 **Styling menggunakan CSS Modules & Styled Components**
+- ✅ **Linting dengan ESLint**
 
-In the project directory, you can run:
+## 📂 **Struktur Folder**
+```
+TMDB-App/
+│── public/
+│── src/
+│   ├── components/
+│   │   ├── MovieCard.tsx
+│   │   ├── Navbar.tsx
+│   ├── pages/
+│   │   ├── Home.tsx
+│   │   ├── MovieDetails.tsx
+│   │   ├── Login.tsx
+│   ├── styles/
+│   │   ├── global.css
+│   │   ├── Navbar.module.css
+│   │   ├── Home.module.css
+│   ├── App.tsx
+│   ├── index.tsx
+│── .eslintrc.json
+│── package.json
+│── README.md
+```
 
-### `npm start`
+## ⚙️ **Instalasi & Menjalankan Aplikasi**
+1. **Clone repository**
+   ```sh
+   git clone https://github.com/username/tmdb-app.git
+   cd tmdb-app
+   ```
+2. **Instal dependensi**
+   ```sh
+   npm install
+   ```
+3. **Buat file `.env` dan tambahkan API key dari TMDB**
+   ```sh
+   REACT_APP_TMDB_API_KEY=your_api_key_here
+   ```
+4. **Jalankan aplikasi**
+   ```sh
+   npm start
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🛠️ **Teknologi yang Digunakan**
+- React.js
+- TypeScript
+- React Router
+- Axios
+- Styled Components
+- CSS Modules
+- ESLint
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📜 **Lisensi**
+Proyek ini menggunakan lisensi MIT.
