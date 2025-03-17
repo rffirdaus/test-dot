@@ -46,11 +46,7 @@ TMDB-App/
    ```sh
    npm install
    ```
-3. **Buat file `.env` dan tambahkan API key dari TMDB**
-   ```sh
-   REACT_APP_TMDB_API_KEY=your_api_key_here
-   ```
-4. **Jalankan aplikasi**
+3. **Jalankan aplikasi**
    ```sh
    npm start
    ```
